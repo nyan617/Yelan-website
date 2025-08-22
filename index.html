@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yelan Fan Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #0f0f1a;
+      color: #f4f4f4;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 200px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 4px solid #4cc9f0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #1e1e2f;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #4cc9f0;
+      padding: 1rem;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #333;
+    }
+
+    .container {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #4cc9f0;
+      margin-bottom: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: #1e1e2f;
+      padding: 1.5rem;
+      border-radius: 12px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Image gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      border: 2px solid #4cc9f0;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #1a1a2e;
+      color: #aaa;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        text-align: center;
+        border-top: 1px solid #444;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="pics/yelan-icon-from-the-new-web-event-v0-1pe4rzy8p1rb1.webp" alt="Yelan">
+    <h1>Yelan — The Valley Orchid</h1>
+    <p>Mysterious, elegant, and deadly accurate. Yelan is a Hydro bow user in Genshin Impact.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#abilities">Abilities</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container" id="about">
+    <h2>About Yelan</h2>
+    <p>Yelan is a mysterious figure who claims to work for the Ministry of Civil Affairs in Liyue, though most details about her are shrouded in secrecy. She is calm, calculating, and uses her wit and charm to get results.</p>
+  </div>
+
+  <div class="container" id="abilities">
+    <h2>Abilities</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Elemental Skill</h3>
+        <p><strong>Lingering Lifeline</strong> — Yelan dashes swiftly, marking enemies with lifelines that explode to deal Hydro DMG.</p>
+      </div>
+      <div class="card">
+        <h3>Elemental Burst</h3>
+        <p><strong>Depth-Clarion Dice</strong> — Summons dice that follow the active character, dealing coordinated Hydro attacks.</p>
+      </div>
+      <div class="card">
+        <h3>Playstyle</h3>
+        <p>Yelan excels as a sub-DPS, applying Hydro quickly while boosting team damage through her passive talents.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="pics/Yelan_Card.webp" alt="Yelan Official Art 1">
+      <img src="pics/yelan-birthday-art-genshinimpact-1536x1536.jpg" alt="Yelan Official Art 2">
+      <img src="pics/Yelan_Character_Card.webp"="Yelan Splash Art">
+    </div>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact</h2>
+    <p>Fan-made website. Connect with other Genshin Impact players to share Yelan builds, team comps, and fan art.</p>
+    <p>Email: <a href="mailto:yelan.fans@gmail.com" style="color:#4cc9f0;">yelan.fans@gmail.com</a></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Yelan Fan Page. This is a fan project and not affiliated with HoYoverse.</p>
+  </footer>
+
+</body>
+</html>
